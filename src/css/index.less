@@ -1,0 +1,29 @@
+@import "vars.less";
+
+body{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.btn{
+  font-family: 'Mali', cursive;
+  margin:3px;
+  font-size:25pt;
+  width:200px;
+  height:70px;
+  border-radius: 5px;
+}
+
+
+.btn-green{
+  .btn-colors(#31ff31, green);
+}
+
+.btn-blue{
+  .btn-colors(#5c8ce4, blue);
+}
+
+.btn-red{
+  .btn-colors(#e06464, red);
+}

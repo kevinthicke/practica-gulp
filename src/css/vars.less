@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Mali');
+
+.btn-colors(@color, @shadow-color){
+  color:black;
+  background:@color;
+  box-shadow: 0 3pt 1pt inset  @shadow-color, 0 -3pt 1pt inset  @shadow-color;
+  &:hover{
+    box-shadow: 0 2pt 1pt inset  @shadow-color, 0 -2pt 1pt inset @shadow-color;
+  }
+}

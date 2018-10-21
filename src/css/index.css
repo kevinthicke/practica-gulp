@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Mali');
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  font-family: 'Mali', cursive;
+  margin: 3px;
+  font-size: 25pt;
+  width: 200px;
+  height: 70px;
+  border-radius: 5px;
+}
+.btn-green {
+  color: black;
+  background: #31ff31;
+  box-shadow: 0 3pt 1pt inset green, 0 -3pt 1pt inset green;
+}
+.btn-green:hover {
+  box-shadow: 0 2pt 1pt inset green, 0 -2pt 1pt inset green;
+}
+.btn-blue {
+  color: black;
+  background: #5c8ce4;
+  box-shadow: 0 3pt 1pt inset blue, 0 -3pt 1pt inset blue;
+}
+.btn-blue:hover {
+  box-shadow: 0 2pt 1pt inset blue, 0 -2pt 1pt inset blue;
+}
+.btn-red {
+  color: black;
+  background: #e06464;
+  box-shadow: 0 3pt 1pt inset red, 0 -3pt 1pt inset red;
+}
+.btn-red:hover {
+  box-shadow: 0 2pt 1pt inset red, 0 -2pt 1pt inset red;
+}
